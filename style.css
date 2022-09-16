@@ -75,7 +75,7 @@ img {
     box-shadow: 0 0 0 rgba(208, 230, 185, 0);
   }
 }
-.es-watroba, #es-watroba {
+#es-watroba.es-watroba {
   font-size: 25px;
   font-weight: 300;
   line-height: 1.2;
@@ -87,49 +87,47 @@ img {
   font-size: 16px;
   font-family: "Noto-Sans";
 }
-
-.es-logo {
+#es-watroba.es-watroba .es-logo {
   width: 100%;
 }
-.es-logo img {
+#es-watroba.es-watroba .es-logo img {
   margin: 20px;
   margin-left: 150px;
   width: 150px;
 }
-
-.es-kv {
+#es-watroba.es-watroba .es-kv {
   background-image: url(./images/kv-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 70vh;
 }
-.es-kv__content {
+#es-watroba.es-watroba .es-kv__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin-left: 10%;
 }
-.es-kv__title {
+#es-watroba.es-watroba .es-kv__title {
   font-family: "Oswald";
   font-style: italic;
   font-size: 44px;
   color: #fff;
 }
-.es-kv__text {
+#es-watroba.es-watroba .es-kv__text {
   font-size: 16px;
   color: #fff;
   opacity: 0.8;
 }
-.es-kv__subtitle {
+#es-watroba.es-watroba .es-kv__subtitle {
   font-family: "Oswald";
   font-style: italic;
   font-size: 27px;
   color: #fff;
   text-transform: uppercase;
 }
-.es-kv__quiz {
+#es-watroba.es-watroba .es-kv__quiz {
   text-decoration: none;
   font-family: "Oswald";
   font-size: 27px;
@@ -143,15 +141,14 @@ img {
   -webkit-animation: es-pulse2 2s infinite;
           animation: es-pulse2 2s infinite;
 }
-.es-kv__quiz:hover {
+#es-watroba.es-watroba .es-kv__quiz:hover {
   background-color: transparent;
   color: #a42618;
   font-weight: bold;
   outline: 5px solid #a42618;
   transition: all 0.5s ease-in-out;
 }
-
-.es-risk {
+#es-watroba.es-watroba .es-risk {
   margin: 40px 0;
   display: flex;
   flex-direction: column;
@@ -159,13 +156,13 @@ img {
   align-items: center;
   padding: 20px;
 }
-.es-risk__textCtn {
+#es-watroba.es-watroba .es-risk__textCtn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-risk__title {
+#es-watroba.es-watroba .es-risk__title {
   font-family: "Oswald";
   font-style: italic;
   font-size: 44px;
@@ -174,12 +171,12 @@ img {
   margin: 0;
   text-align: center;
 }
-.es-risk__desc {
+#es-watroba.es-watroba .es-risk__desc {
   font-size: 18px;
   margin: 20px 0;
   text-align: center;
 }
-.es-risk__subtitle {
+#es-watroba.es-watroba .es-risk__subtitle {
   font-family: "Oswald";
   font-style: italic;
   font-size: 22px;
@@ -188,19 +185,19 @@ img {
   margin: 0;
   text-align: center;
 }
-.es-risk__iconsCTn {
+#es-watroba.es-watroba .es-risk__iconsCTn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-risk__iconsRow {
+#es-watroba.es-watroba .es-risk__iconsRow {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-risk__iconSingle {
+#es-watroba.es-watroba .es-risk__iconSingle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,12 +206,12 @@ img {
   margin-top: 20px;
   padding: 20px;
 }
-.es-risk__iconImg {
+#es-watroba.es-watroba .es-risk__iconImg {
   max-width: 100%;
   -webkit-animation: es-pulse 2s infinite;
           animation: es-pulse 2s infinite;
 }
-.es-risk__iconTitle {
+#es-watroba.es-watroba .es-risk__iconTitle {
   font-family: "Oswald";
   font-size: 22px;
   text-transform: uppercase;
@@ -223,20 +220,19 @@ img {
   text-align: center;
   margin: 20px 0;
 }
-.es-risk__iconDesc {
+#es-watroba.es-watroba .es-risk__iconDesc {
   font-size: 16px;
   margin: 0;
   text-align: center;
 }
-
-.es-test {
+#es-watroba.es-watroba .es-test {
   background-image: url(./images/check-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 70vh;
 }
-.es-test__Ctn {
+#es-watroba.es-watroba .es-test__Ctn {
   margin: 0 auto;
   max-width: 700px;
   display: flex;
@@ -244,11 +240,11 @@ img {
   justify-content: center;
   align-items: center;
 }
-.es-test__logo {
+#es-watroba.es-watroba .es-test__logo {
   margin-top: 40px;
   width: 150px;
 }
-.es-test__titleText {
+#es-watroba.es-watroba .es-test__titleText {
   font-family: "Oswald";
   font-style: italic;
   color: #fff;
@@ -257,40 +253,40 @@ img {
   text-align: center;
   margin-bottom: 10px;
 }
-.es-test__subtitle {
+#es-watroba.es-watroba .es-test__subtitle {
   color: #fff;
   text-align: center;
   margin: 0;
   opacity: 0.8;
 }
-.es-test__links {
+#es-watroba.es-watroba .es-test__links {
   font-family: "Oswald";
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-test__single {
+#es-watroba.es-watroba .es-test__single {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
   min-width: 300px;
 }
-.es-test__singleText {
+#es-watroba.es-watroba .es-test__singleText {
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
   text-align: end;
   margin: 20px;
 }
-.es-test__qr {
+#es-watroba.es-watroba .es-test__qr {
   max-width: 100%;
   width: 150px;
   border: 8px solid #a42618;
   border-radius: 25px;
 }
-.es-test__link {
+#es-watroba.es-watroba .es-test__link {
   font-family: "Oswald";
   color: #fff;
   text-decoration: none;
@@ -304,27 +300,26 @@ img {
   -webkit-animation: es-pulse2 2s infinite;
           animation: es-pulse2 2s infinite;
 }
-.es-test__link:hover {
+#es-watroba.es-watroba .es-test__link:hover {
   background-color: transparent;
   color: #a42618;
   font-weight: bold;
   outline: 5px solid #a42618;
   transition: all 0.5s ease-in-out;
 }
-
-.es-download {
+#es-watroba.es-watroba .es-download {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
-.es-download__Ctn {
+#es-watroba.es-watroba .es-download__Ctn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.es-download__title {
+#es-watroba.es-watroba .es-download__title {
   font-family: "Oswald";
   font-style: italic;
   font-size: 40px;
@@ -332,11 +327,11 @@ img {
   text-align: center;
   margin-bottom: 10px;
 }
-.es-download__subtitle {
+#es-watroba.es-watroba .es-download__subtitle {
   text-align: center;
   margin: 10px;
 }
-.es-download__link {
+#es-watroba.es-watroba .es-download__link {
   font-family: "Oswald";
   color: #fff;
   text-decoration: none;
@@ -351,22 +346,21 @@ img {
   -webkit-animation: es-pulse2 2s infinite;
           animation: es-pulse2 2s infinite;
 }
-.es-download__link:hover {
+#es-watroba.es-watroba .es-download__link:hover {
   background-color: transparent;
   color: #a42618;
   font-weight: bold;
   outline: 5px solid #a42618;
   transition: all 0.5s ease-in-out;
 }
-
-.es-video {
+#es-watroba.es-watroba .es-video {
   background-image: url(./images/check-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 70vh;
 }
-.es-video__title {
+#es-watroba.es-watroba .es-video__title {
   font-family: "Oswald";
   font-style: italic;
   color: #fff;
@@ -375,37 +369,35 @@ img {
   text-align: center;
   padding-top: 50px;
 }
-.es-video__Ctn {
+#es-watroba.es-watroba .es-video__Ctn {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.es-video__single {
+#es-watroba.es-watroba .es-video__single {
   margin: 20px;
 }
-.es-video__iframe {
+#es-watroba.es-watroba .es-video__iframe {
   width: 100%;
   min-height: 250px;
   z-index: 1;
   border-radius: 20px;
 }
-
-.es-footer {
+#es-watroba.es-watroba .es-footer {
   margin: 20px;
 }
-.es-footer__content {
+#es-watroba.es-watroba .es-footer__content {
   margin: 0 30px;
 }
-.es-footer__claim {
+#es-watroba.es-watroba .es-footer__claim {
   font-size: 10px;
 }
-.es-footer__nr {
+#es-watroba.es-watroba .es-footer__nr {
   text-transform: uppercase;
   font-size: 12px;
 }
-
-.es-sectionDivider {
+#es-watroba.es-watroba .es-sectionDivider {
   width: 100%;
   height: 8px;
   background: rgb(244, 224, 34);
@@ -413,22 +405,22 @@ img {
 }
 
 @media (max-width: 600px) {
-  .es-kv {
+  #es-watroba.es-watroba .es-kv {
     min-height: -webkit-max-content;
     min-height: -moz-max-content;
     min-height: max-content;
     padding: 50px 10px;
   }
-  .es-kv__title {
+  #es-watroba.es-watroba .es-kv__title {
     font-size: 30px;
   }
-  .es-test {
+  #es-watroba.es-watroba .es-test {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
     padding: 50px 10px;
   }
-  .es-test__titleText {
+  #es-watroba.es-watroba .es-test__titleText {
     font-size: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
